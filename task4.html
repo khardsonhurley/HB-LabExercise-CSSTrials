@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .boxes {
+            background-color: black;
+            display:inline-block;
+            height: 100px;
+            width: 100px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .leftbox {
+            margin-right: 25px;
+            margin-left: 50px;
+
+        }
+        .rightbox {
+            margin-left: 25px;
+        }
+
+        .stripe {
+            display: block;
+            height:200px;
+            width: 350px;
+        }
+        #redstripe{
+            background-color: red;
+        }
+        #bluestripe{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <div id = "redstripe" class= "stripe"> 
+        <span class= "boxes leftbox" ></span> 
+        <span class ="boxes rightbox"> </span>
+    </div>
+
+    <div id = "bluestripe" class= "stripe"> 
+        <span class ="boxes leftbox" > </span>
+        <span class ="boxes rightbox"> </span>
+    </div> 
+</body>
+</html>
